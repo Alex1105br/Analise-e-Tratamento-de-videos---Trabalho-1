@@ -44,7 +44,7 @@ Run the compiled program:
 - `histograma_global.cpp`: Contains functionality to compute and save the global histogram of an image.
 - `histograma_local.cpp`: Contains functionality to compute and save the local histograms by dividing the image into four partitions.
 - `transformadas.cpp`: Implements various image transformations, including logarithmic scaling and contrast expansion.
-- `deteccao_bordas.cpp`: Implements various edge detection algorithms (e.g., Canny, Sobel) to identify and highlight edges in images. The output is saved to a specified path.
+- `deteccao_bordas.cpp`: We perform a reduction of color quantization on an image using the K-Means algorithm, apply an average filter for smoothing, and implement the Roberts edge filter. The result is a processed image with highlighted borders, which is saved to the specified directory.
 - `filtros_espaciais.cpp`: Implements spatial filters for noise reduction and image enhancement, allowing for the application of different kernel sizes and types.
 
 
